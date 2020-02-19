@@ -15,3 +15,10 @@ It will accept an array of Order IDs to process orders for fulfilment and shippi
 If an order cannot be fulfilled due to low stock levels, it will return an array of order ids unfulfillable and not process the Order Fulfilment. 
 
 If the stock quantity falls below the re-order threshold a new purchase order should be generated. For the purposes of this exercise assume that an endpoint for this service already exists, although you may have to stub something out to get things working. As long as you can verify that a purchase order has been created when stock levels fall to low, that’s all that’s required.
+
+
+# Installation
+
+1. load script from config/schema/testdata.sql
+2. run <myservername>/orders/reload in your favorite browser to load the data from json.
+3. enjoy!
