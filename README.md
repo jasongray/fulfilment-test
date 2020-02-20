@@ -23,3 +23,6 @@ If the stock quantity falls below the re-order threshold a new purchase order sh
 2. run `<myservername>/orders/reload` in your favorite browser to load the data from json.
 3. run the api endpoint `<myservername>/api/v1/warehouse/fulfilment` probable in postman or similar.
 3. enjoy the magic!
+
+# The guts
+The guts of the code/test are in `src/Controller/OrdersController.php`
